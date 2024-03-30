@@ -51,7 +51,7 @@ export default function Home() {
         </div>
       </div>
       <div className="mt-16">
-        <h3 className="font-medium text-2xl">🪴 Plantas</h3>
+        <h3 className="font-bold text-3xl mb-6">🪴 Plantas</h3>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-4">
           {plants.map((plant) => (
             <Card key={plant.name + plant.price}>
