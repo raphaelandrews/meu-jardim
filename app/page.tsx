@@ -77,7 +77,7 @@ export default function Home() {
                   </Badge>
                 )}
 
-                <p className="mt-2">R$ {plant.price}</p>
+                <p className="text-lg font-medium mt-2">R$ {plant.price}</p>
               </CardContent>
               <CardFooter>
                 <Link
