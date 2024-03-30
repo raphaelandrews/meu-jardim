@@ -2,97 +2,110 @@ interface Plants {
     name: string;
     price: number;
     image: string;
+    stock: boolean;
 }
 
 export const plants: Plants[] = [
     {
         name: "Aloe Aristata - Rabo de Tatu",
         price: 16.00,
-        image: "Aloe Aristata - Rabo de Tatu"
+        image: "Aloe Aristata - Rabo de Tatu",
+        stock: true
     },
     {
         name: "Bonsai Jabuticaba",
         price: 45.00,
-        image: "Bonsai Jabuticaba"
+        image: "Bonsai Jabuticaba",
+        stock: true
     },
     {
         name: "Bonsai Romã",
         price: 45.00,
-        image: "Bonsai Romã"
+        image: "Bonsai Romã",
+        stock: true
     },
     {
         name: "Cacto Gymnocalycium Variegata",
         price: 65.00,
-        image: "Cacto Gymnocalycium Variegata 1"
+        image: "Cacto Gymnocalycium Variegata 1",
+        stock: false
     },
     {
         name: "Cacto Gymnocalycium Variegata",
         price: 65.00,
-        image: "Cacto Gymnocalycium Variegata 2"
+        image: "Cacto Gymnocalycium Variegata 2",
+        stock: false
     },
     {
-        name: "Espadinha",
+        name: "Sansevieria Golden - Espadinha",
         price: 16.00,
-        image: "Espadinha"
+        image: "Espadinha",
+        stock: true
     },
     {
-        name: "Ficus Lyrata",
+        name: "Ficus Lyrata Bambino - Pote 15",
         price: 40.00,
-        image: "Ficus Lyrata"
+        image: "Ficus Lyrata",
+        stock: true
     },
     {
         name: "Hera",
         price: 50.00,
-        image: "Hera"
+        image: "Hera",
+        stock: false
     },
     {
-        name: "Jibóia",
+        name: "Jibóia - Cuia 13",
         price: 23.00,
-        image: "Jibóia"
+        image: "Jibóia",
+        stock: true
     },
     {
         name: "Mini Antúrio - Pote 09",
         price: 20.00,
-        image: "Mini Antúrio - Pote 09"
+        image: "Mini Antúrio - Pote 09",
+        stock: true
     },
     {
         name: "Mini Cactos - Unidade",
         price: 8.00,
-        image: "Mini Cactos 1"
-    },
-    {
-        name: "Mini Cactos- Unidade",
-        price: 8.00,
-        image: "Mini Cactos 2"
+        image: "Mini Cactos 1",
+        stock: true
     },
     {
         name: "Mini Zamioculca - Pote 09",
         price: 25.00,
-        image: "Mini Zamioculca"
+        image: "Mini Zamioculca",
+        stock: false
     },
     {
         name: "Mini Zamioculca Black - Pote 09",
         price: 45.00,
-        image: "Mini Zamioculca Black"
+        image: "Mini Zamioculca Black",
+        stock: false
     },
     {
-        name: "Ora-pro-nóbis",
+        name: "Ora-pro-nóbis Dourada",
         price: 40.00,
-        image: "Ora-pro-nóbis"
+        image: "Ora-pro-nóbis",
+        stock: false
     },
     {
         name: "Palmeira Chamaedorea",
         price: 25.00,
-        image: "Palmeira Chamaedorea"
+        image: "Palmeira Chamaedorea",
+        stock: true
     },
     {
         name: "Palmeira de Madagascar",
         price: 45.00,
-        image: "Palmeira de Madagascar"
+        image: "Palmeira de Madagascar",
+        stock: false
     },
     {
-        name: "Rabo de Macaco",
+        name: "Cacto Rabo de Macaco - Cuia 18",
         price: 35.00,
-        image: "Rabo de Macaco"
+        image: "Rabo de Macaco",
+        stock: false
     },
 ];

@@ -9,7 +9,6 @@ import hera from "@/public/plants/hera.jpeg";
 import jiboia from "@/public/plants/jiboia.jpeg";
 import miniAnturio from "@/public/plants/mini-anturio-pote-09.jpeg";
 import miniCactos1 from "@/public/plants/mini-cactos.jpeg";
-import miniCactos2 from "@/public/plants/mini-cactos-2.jpeg";
 import miniZamioculca from "@/public/plants/mini-zamioculca.jpeg";
 import miniZamioculcaBlack from "@/public/plants/mini-zamioculca-black.jpeg";
 import oraProNobis from "@/public/plants/ora-pro-nobis.jpeg";
@@ -30,7 +29,6 @@ const plantImage: any = {
   "Jibóia": jiboia,
   "Mini Antúrio - Pote 09": miniAnturio,
   "Mini Cactos 1": miniCactos1,
-  "Mini Cactos 2": miniCactos2,
   "Mini Zamioculca": miniZamioculca,
   "Mini Zamioculca Black": miniZamioculcaBlack,
   "Ora-pro-nóbis": oraProNobis,

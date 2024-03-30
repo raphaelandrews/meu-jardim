@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 import { PlantImage } from "@/utils/plant-image";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import {
   Card,
@@ -34,13 +35,15 @@ export default function Home() {
 
         <div className="flex gap-2 mt-8">
           <Link
-            href="https://www.instagram.com/meujardim_aju"
+            href="https://api.whatsapp.com/send?phone=5579988197119"
+            target="_blank"
             className={cn(buttonVariants({ variant: "outline" }), "w-10 h-10 p-0 rounded-full hover:text-background")}
           >
             <PhoneIcon width={20} height={20} />
           </Link>
           <Link
             href="https://www.instagram.com/meujardim_aju"
+            target="_blank"
             className={cn(buttonVariants({ variant: "outline" }), "w-10 h-10 p-0 rounded-full hover:text-background")}
           >
             <InstagramIcon width={20} height={20} />
@@ -65,6 +68,15 @@ export default function Home() {
                 <CardTitle className="font-semibold text-lg min-h-[3.5rem] line-clamp-2 webkit-line-clamp-2">
                   {plant.name}
                 </CardTitle>
+
+                {plant.stock ? (
+                  <div className="h-[22px]" />
+                ) : (
+                  <Badge variant="default" className="text-muted bg-muted-foreground">
+                    Esgotado
+                  </Badge>
+                )}
+
                 <p className="mt-2">R$ {plant.price}</p>
               </CardContent>
               <CardFooter>
