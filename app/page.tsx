@@ -35,7 +35,7 @@ export default function Home() {
 
         <div className="flex gap-2 mt-8">
           <Link
-            href="https://api.whatsapp.com/send?phone=5579988197119"
+            href="https://api.whatsapp.com/send?phone=5579981289628"
             target="_blank"
             className={cn(buttonVariants({ variant: "outline" }), "w-10 h-10 p-0 rounded-full hover:text-background")}
           >
@@ -81,7 +81,7 @@ export default function Home() {
               </CardContent>
               <CardFooter>
                 <Link
-                  href="https://api.whatsapp.com/send?phone=5579988197119"
+                  href="https://api.whatsapp.com/send?phone=5579981289628"
                   className={cn(buttonVariants({ variant: "default" }), "w-full")}
                 >
                   WhatsApp
