@@ -22,7 +22,7 @@ export const plants: Plants[] = [
         name: "Bonsai Romã",
         price: 45.00,
         image: "Bonsai Romã",
-        stock: true
+        stock: false
     },
     {
         name: "Cacto Gymnocalycium Variegata",
