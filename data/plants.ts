@@ -16,7 +16,7 @@ export const plants: Plants[] = [
         name: "Bonsai Jabuticaba",
         price: 45.00,
         image: "Bonsai Jabuticaba",
-        stock: true
+        stock: false
     },
     {
         name: "Bonsai Romã",
