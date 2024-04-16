@@ -16,23 +16,23 @@ export const plants: Plants[] = [
         name: "Bonsai Jabuticaba",
         price: 45.00,
         image: "Bonsai Jabuticaba",
-        stock: false
+        stock: true
     },
     {
         name: "Bonsai Romã",
         price: 45.00,
         image: "Bonsai Romã",
-        stock: false
+        stock: true
     },
     {
         name: "Cacto Gymnocalycium Variegata",
-        price: 65.00,
+        price: 60.00,
         image: "Cacto Gymnocalycium Variegata 1",
         stock: false
     },
     {
         name: "Cacto Gymnocalycium Variegata",
-        price: 65.00,
+        price: 60.00,
         image: "Cacto Gymnocalycium Variegata 2",
         stock: false
     },
@@ -52,7 +52,7 @@ export const plants: Plants[] = [
         name: "Hera",
         price: 50.00,
         image: "Hera",
-        stock: false
+        stock: true
     },
     {
         name: "Jibóia - Cuia 13",
@@ -76,7 +76,7 @@ export const plants: Plants[] = [
         name: "Mini Zamioculca - Pote 09",
         price: 25.00,
         image: "Mini Zamioculca",
-        stock: false
+        stock: true
     },
     {
         name: "Mini Zamioculca Black - Pote 09",
@@ -88,7 +88,7 @@ export const plants: Plants[] = [
         name: "Ora-pro-nóbis Dourada",
         price: 40.00,
         image: "Ora-pro-nóbis",
-        stock: false
+        stock: true
     },
     {
         name: "Palmeira Chamaedorea",
@@ -100,12 +100,12 @@ export const plants: Plants[] = [
         name: "Palmeira de Madagascar",
         price: 45.00,
         image: "Palmeira de Madagascar",
-        stock: false
+        stock: true
     },
     {
         name: "Cacto Rabo de Macaco - Cuia 18",
         price: 35.00,
         image: "Rabo de Macaco",
-        stock: false
+        stock:true
     },
 ];
