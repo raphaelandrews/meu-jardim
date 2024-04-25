@@ -122,7 +122,7 @@ export const plants: Plants[] = [
     }, 
        {
         name: "Palmeira Ráfis",
-        price: 40.00,
+        price: 45.00,
         image: "Palmeira Ráfis",
         stock: true
     },

@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -5,6 +6,7 @@ import {
   PhoneIcon,
 } from "lucide-react";
 
+import { siteConfig } from "@/config/site";
 import { plants } from "@/data/plants";
 import { cn } from "@/lib/utils";
 import { PlantImage } from "@/utils/plant-image";
@@ -20,6 +22,25 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
+export const metadata: Metadata = {
+  title: "Home",
+  description: siteConfig.description,
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    url: siteConfig.url,
+    title: siteConfig.name,
+    description: siteConfig.description,
+    siteName: siteConfig.name,
+    images: [
+      {
+        url: `${siteConfig.url}/og/og.png`,
+        width: 1920,
+        height: 1080,
+      },
+    ],
+  },
+}
 
 export default function Home() {
   return (
