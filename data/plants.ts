@@ -43,9 +43,9 @@ export const plants: Plants[] = [
         stock: false
     },
     {
-        name: "Sansevieria Golden - Espadinha",
-        price: 16.00,
-        image: "Espadinha",
+        name: "Cacto Rabo de Macaco - Cuia 18",
+        price: 35.00,
+        image: "Rabo de Macaco",
         stock: true
     },
     {
@@ -127,15 +127,15 @@ export const plants: Plants[] = [
         stock: true
     },
     {
-        name: "Cacto Rabo de Macaco - Cuia 18",
+        name: "Pata de Elefante",
         price: 35.00,
-        image: "Rabo de Macaco",
+        image: "Pata de Elefante",
         stock: true
     },
     {
-        name: "Pata de Elefante",
-        price: 32.00,
-        image: "Pata de Elefante",
+        name: "Sansevieria Golden - Espadinha",
+        price: 16.00,
+        image: "Espadinha",
         stock: true
     },
 ];
