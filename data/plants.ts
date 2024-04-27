@@ -80,7 +80,7 @@ export const plants: Plants[] = [
     },
     {
         name: "Mini Cactos - Unidade",
-        price: 8.00,
+        price: 7.00,
         image: "Mini Cactos 1",
         stock: true
     }, 
