@@ -8,7 +8,7 @@ interface Plants {
 export const plants: Plants[] = [
     {
         name: "Aloe Aristata - Rabo de Tatu",
-        price: 16.00,
+        price: 18.00,
         image: "Aloe Aristata - Rabo de Tatu",
         stock: true
     },
@@ -86,13 +86,13 @@ export const plants: Plants[] = [
     }, 
        {
         name: "Mini Pacová",
-        price: 15.00,
+        price: 35.00,
         image: "Mini Pacová",
         stock: true
     },
     {
         name: "Mini Zamioculca - Pote 09",
-        price: 25.00,
+        price: 35.00,
         image: "Mini Zamioculca",
         stock: true
     },
@@ -110,7 +110,7 @@ export const plants: Plants[] = [
     },
     {
         name: "Palmeira Chamaedorea",
-        price: 25.00,
+        price: 26.00,
         image: "Palmeira Chamaedorea",
         stock: true
     },
@@ -122,7 +122,7 @@ export const plants: Plants[] = [
     }, 
        {
         name: "Palmeira Ráfis",
-        price: 45.00,
+        price: 55.00,
         image: "Palmeira Ráfis",
         stock: true
     },
@@ -134,7 +134,7 @@ export const plants: Plants[] = [
     },
     {
         name: "Sansevieria Golden - Espadinha",
-        price: 16.00,
+        price: 18.00,
         image: "Espadinha",
         stock: true
     },
