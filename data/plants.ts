@@ -91,8 +91,8 @@ export const plants: Plants[] = [
         stock: true
     },
     {
-        name: "Mini Zamioculca - Pote 09",
-        price: 35.00,
+        name: "Mini Zamioculca - Pote 14",
+        price: 30.00,
         image: "Mini Zamioculca",
         stock: true
     },
