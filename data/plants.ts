@@ -62,7 +62,7 @@ export const plants: Plants[] = [
     }, 
        {
         name: "Hibisco Dobrado",
-        price: 22.00,
+        price: 23.00,
         image: "Hibisco Dobrado",
         stock: true
     },
